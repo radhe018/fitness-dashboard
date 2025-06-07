@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+  color: #38bdf8;
+}
+
+p {
+  color: #cbd5e1;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.three-container {
+  height: 300px;
+  background: #1e293b;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#three-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+}
+
+.circle {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px #38bdf8;
+}
+
+.circle label {
+  font-size: 0.9rem;
+  color: #a5f3fc;
+  margin-bottom: 5px;
+}
+
+.circle span {
+  font-size: 1.3rem;
+  color: #f8fafc;
+}

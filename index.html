@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Fitness Glove</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.module.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Smart Fitness Glove</h1>
+    <p>Real-time motion & pressure feedback</p>
+  </header>
+
+  <main>
+    <div class="three-container">
+      <canvas id="three-canvas"></canvas>
+    </div>
+
+    <div class="sensor-grid">
+      <div class="circle" id="flex1"><label>Flex 1</label><span>0</span></div>
+      <div class="circle" id="flex2"><label>Flex 2</label><span>0</span></div>
+      <div class="circle" id="pressure"><label>Pressure</label><span>0</span></div>
+      <div class="circle" id="accX"><label>Acc X</label><span>0</span></div>
+      <div class="circle" id="accY"><label>Acc Y</label><span>0</span></div>
+      <div class="circle" id="accZ"><label>Acc Z</label><span>0</span></div>
+      <div class="circle" id="gyroX"><label>Gyro X</label><span>0</span></div>
+      <div class="circle" id="gyroY"><label>Gyro Y</label><span>0</span></div>
+      <div class="circle" id="gyroZ"><label>Gyro Z</label><span>0</span></div>
+    </div>
+  </main>
+</body>
+</html>
